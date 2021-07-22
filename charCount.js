@@ -6,5 +6,4 @@ function charCount(inputString) {
     }
     return JSON.stringify(obj);
 }
-
 console.log(charCount('aaaa'));
