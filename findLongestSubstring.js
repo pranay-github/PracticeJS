@@ -12,7 +12,6 @@ function findLongestSubstring(arr1) {
         obj1[arr1[i]] = i + 1;
         i++;
     }
-
     return maxCount;
 }
 
