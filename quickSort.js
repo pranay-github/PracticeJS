@@ -2,7 +2,7 @@ function pivot(arr, start = 0, end = arr.length - 1) {
     let pivot = arr[start];
     let swapIndex = start;
 
-    for (let i=start+1; i< end; i++) {
+    for (let i=start+1; i< arr.length; i++) {
         if (pivot > arr[i]) {
             swapIndex++;
             [arr[i], arr[swapIndex]] = [arr[swapIndex], arr[i]];
